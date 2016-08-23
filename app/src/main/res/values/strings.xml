@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ControlesApp</string>
+    <string-array name="listControl">
+        <item>EditText</item>
+        <item>Button</item>
+        <item>AlertDialog</item>
+        <item>CheckView</item>
+        <item>RadioButton</item>
+        <item>Spinner</item>
+    </string-array>
+    <string name="numero">Digite el numero</string>
+    <string name="enviar">Enviar</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="edtDesactivado">EditText desactivado</string>
+    <string name="edtDescripcion">Descripcion</string>
+</resources>
