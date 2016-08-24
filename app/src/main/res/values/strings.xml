@@ -8,9 +8,12 @@
         <item>RadioButton</item>
         <item>Spinner</item>
     </string-array>
+    <!-- Text -->
     <string name="numero">Digite el numero</string>
     <string name="enviar">Enviar</string>
     <string name="correo">Correo Electronico</string>
     <string name="edtDesactivado">EditText desactivado</string>
     <string name="edtDescripcion">Descripcion</string>
+    <!-- Button -->
+    <string name="Aceptar">Aceptar</string>
 </resources>
