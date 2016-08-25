@@ -12,5 +12,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ControlDialogo"
+        android:textAppearance="?android:attr/textAppearance"
         android:id="@+id/textView"></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"
+        android:id="@+id/btnEnviar"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        />
+
 </RelativeLayout>
