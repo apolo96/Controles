@@ -16,4 +16,7 @@
     <string name="edtDescripcion">Descripcion</string>
     <!-- Button -->
     <string name="Aceptar">Aceptar</string>
+    <!-- CheckBox -->
+    <string name="showPass">Mostras contraseña</string>
+    <string name="hintPass">Guardar session</string>
 </resources>
