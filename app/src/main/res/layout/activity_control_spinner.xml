@@ -14,4 +14,14 @@
         android:text="ControlSpinner"
         android:id="@+id/textView">
     </TextView>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spCiudad"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:spinnerMode="dialog"
+        />
 </RelativeLayout>

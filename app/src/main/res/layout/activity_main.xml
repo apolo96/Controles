@@ -14,6 +14,5 @@
         android:entries="@array/listControl"
         android:id="@+id/controlList"
         >
-
     </ListView>
 </RelativeLayout>
