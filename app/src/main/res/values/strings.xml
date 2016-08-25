@@ -19,4 +19,7 @@
     <!-- CheckBox -->
     <string name="showPass">Mostras contraseña</string>
     <string name="hintPass">Guardar session</string>
+    <!-- RadioButton -->
+    <string name="perona">Peronsa natular</string>
+    <string name="empresa">Empresa Constituida</string>
 </resources>
