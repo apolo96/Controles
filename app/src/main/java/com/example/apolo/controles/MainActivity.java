@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         switch (itemClass){
             case 0 :
                 objIntent = new Intent(getApplicationContext(),ControlText.class);
+
                 break;
             case 1:
                 objIntent = new Intent(getApplicationContext(),ControlBoton.class);
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 objIntent = new Intent(getApplicationContext(), ControlSpinner.class);
                 break;
         }
+
         if(objIntent != null)startActivity(objIntent);
 
     }

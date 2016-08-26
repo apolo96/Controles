@@ -20,7 +20,6 @@ public class ControlText extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_control_text);
-
         final EditText edtDescripcion = (EditText) findViewById(R.id.edtDescripcion);
         edtDescripcion.addTextChangedListener(new TextWatcher() {
             @Override
@@ -65,16 +64,18 @@ public class ControlText extends AppCompatActivity {
         edtActionFoco.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-
+                edtActionFoco.setEnabled(false);
                 if(edtDesactivado.isEnabled() == false){
                     edtDesactivado.setEnabled(true);
                     edtDesactivado.requestFocus();
                     Toast.makeText(getApplicationContext(),"Campo Acivadoa",Toast.LENGTH_SHORT).show();
                 }else{
                     edtDesactivado.setEnabled(false);
+                    edtActionFoco.setEnabled(true);
                     edtActionFoco.requestFocus();
 
                 }
+
 
 
             }
